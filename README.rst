@@ -34,22 +34,21 @@ Running a local Marconi server with MongoDB
     $ cd marconi
 
 7. If you are not using a tool like `pyenv`_ with `virtualenv`_ for this then
-   you may need to use sudo on the following command(s)::
+   you may need to use sudo on the following command::
 
     $ pip install -r requirements.txt
-    $ python setup.py develop
 
-8. (Optional) Run the following so you can see the results of any changes you
-   make to the code, without having to reinstall the package each time
-   (pyenv may require a rehash)::
+8. Run the following so you can see the results of any changes you
+   make to the code, without having to reinstall the package each time::
 
     $ pip install -e .
 
-8. Setup the logging folder and permissions (adjust the permissions to the
-   account that will run Marconi)::
+8. Update the **~/.marconi/logging.conf** file with the location you would
+   like to use (adjust permissions as needed)::
 
-    $ sudo mkdir /var/log/marconi/
-    $ sudo chown [USER THAT WILL RUN MARCONI] /var/log/marconi/
+    [DEFAULT]
+    log_file = server.log
+
 
 9. Start the marconi server::
 
@@ -57,7 +56,7 @@ Running a local Marconi server with MongoDB
 
 10. Test out that Marconi is working with a health check which should return an
     HTTP 204::
-    
+
     $ curl -i -X GET http://127.0.0.1:8888/v1/health
 
 **Note:** Keep in mind these instructions are not for a
