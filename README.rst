@@ -39,7 +39,7 @@ installation guide.
 
     log_file = server.log    
 
-7. Change directories to your local copy of the repo::
+7. Change directories back to your local copy of the repo::
 
     $ cd marconi
 
