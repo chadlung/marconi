@@ -43,8 +43,8 @@ Running a local Marconi server with MongoDB
 
     $ pip install -e .
 
-9. Update the **~/.marconi/logging.conf** file with the location you would
-   like to use (adjust permissions as needed)::
+9. Update the **~/.marconi/marconi-queues.conf** file with the location you would
+   like to use::
 
     [DEFAULT]
     log_file = server.log
