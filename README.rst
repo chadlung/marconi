@@ -43,18 +43,18 @@ Running a local Marconi server with MongoDB
 
     $ pip install -e .
 
-8. Update the **~/.marconi/logging.conf** file with the location you would
+9. Update the **~/.marconi/logging.conf** file with the location you would
    like to use (adjust permissions as needed)::
 
     [DEFAULT]
     log_file = server.log
 
 
-9. Start the marconi server::
+10. Start the marconi server::
 
     $ marconi-server
 
-10. Test out that Marconi is working with a health check which should return an
+11. Test out that Marconi is working with a health check which should return an
     HTTP 204::
 
     $ curl -i -X GET http://127.0.0.1:8888/v1/health
