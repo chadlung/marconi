@@ -33,28 +33,23 @@ Running a local Marconi server with MongoDB
 
     $ cd marconi
 
-7. If you are not using a tool like `pyenv`_ with `virtualenv`_ for this then
-   you may need to use sudo on the following command::
-
-    $ pip install -r requirements.txt
-
-8. Run the following so you can see the results of any changes you
+7. Run the following so you can see the results of any changes you
    make to the code, without having to reinstall the package each time::
 
     $ pip install -e .
 
-9. Update the **~/.marconi/marconi-queues.conf** file with the location you would
+8. Update the **~/.marconi/marconi-queues.conf** file with the location you would
    like to use::
 
     [DEFAULT]
     log_file = server.log
 
 
-10. Start the marconi server::
+9. Start the marconi server::
 
     $ marconi-server
 
-11. Test out that Marconi is working with a health check which should return an
+10. Test out that Marconi is working with a health check which should return an
     HTTP 204::
 
     $ curl -i -X GET http://127.0.0.1:8888/v1/health
