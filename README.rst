@@ -8,7 +8,7 @@ Running a local Marconi server with MongoDB
 
 **Note:** These instructions are for running a local instance of Marconi for
 testing or development work, it is not meant as a production deployment
-installation.
+installation guide.
 
 1. `Install MongoDB`_
 2. Start a MongoDB instance::
