@@ -35,7 +35,7 @@ installation guide. Feel free to adjust the paths to your preferences.
     uri = mongodb://localhost
 
 6. For logging, find the ``[DEFAULT]`` section in
-   **~/.marconi/marconi-queues.conf** and modify as desired::
+   ``~/.marconi/marconi-queues.conf`` and modify as desired::
 
     log_file = server.log
 
