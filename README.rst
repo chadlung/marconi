@@ -37,7 +37,7 @@ installation guide.
 6. For logging, find the ``[DEFAULT]`` section in
    **~/.marconi/marconi-queues.conf** and modify as desired::
 
-    log_file = server.log    
+    log_file = server.log
 
 7. Change directories back to your local copy of the repo::
 
