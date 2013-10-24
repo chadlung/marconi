@@ -6,6 +6,10 @@ Message queuing service for OpenStack
 Running a local Marconi server with MongoDB
 -------------------------------------------
 
+**Note:** These instructions are for running a local instance of Marconi for
+testing or development work, it is not meant as a production deployment
+installation.
+
 1. `Install MongoDB`_
 2. Start a MongoDB instance::
 
@@ -51,9 +55,6 @@ Running a local Marconi server with MongoDB
     HTTP 204::
 
     $ curl -i -X GET http://127.0.0.1:8888/v1/health
-
-**Note:** Keep in mind these instructions are not for a
-production deployment.
 
 .. _`Install mongodb` : http://docs.mongodb.org/manual/installation/
 .. _`pyenv` : https://github.com/yyuu/pyenv/
