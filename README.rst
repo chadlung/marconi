@@ -33,7 +33,7 @@ installation guide.
    to your local mongod instance::
 
     uri = mongodb://localhost
-    
+
 6. For logging, find the ``[DEFAULT]`` section in
    **~/.marconi/marconi-queues.conf** and modify as desired::
 
