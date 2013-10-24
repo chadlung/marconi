@@ -44,7 +44,7 @@ installation guide.
     $ cd marconi
 
 8. Run the following so you can see the results of any changes you
-   make to the code, without having to reinstall the package each time::
+   make to the code without having to reinstall the package each time::
 
     $ pip install -e .
 
