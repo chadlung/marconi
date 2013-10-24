@@ -48,7 +48,7 @@ installation guide.
 
     $ pip install -e .
 
-9. Start the marconi server::
+9. Start the Marconi server::
 
     $ marconi-server
 
