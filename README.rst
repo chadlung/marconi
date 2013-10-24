@@ -29,7 +29,7 @@ Running a local Marconi server with MongoDB
 
     uri = mongodb://localhost
     
-7. For logging, Find the ``[DEFAULT]`` section in
+7. For logging, find the ``[DEFAULT]`` section in
    **~/.marconi/marconi-queues.conf** and modify as you wish::
 
     log_file = server.log    
