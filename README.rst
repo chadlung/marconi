@@ -1,7 +1,7 @@
 Marconi
 =======
 
-Message queuing service for OpenStack
+Message queuing service for `OpenStack`_
 
 Running a local Marconi server with MongoDB
 -------------------------------------------
@@ -11,6 +11,7 @@ testing or development work, it is not meant as a production deployment
 installation guide.
 
 1. `Install MongoDB`_
+
 2. Start a MongoDB instance::
 
     $ mongod
@@ -56,6 +57,7 @@ installation guide.
 
     $ curl -i -X GET http://127.0.0.1:8888/v1/health
 
+.. _`OpenStack` : http://openstack.org/
 .. _`Install mongodb` : http://docs.mongodb.org/manual/installation/
 .. _`pyenv` : https://github.com/yyuu/pyenv/
 .. _`virtualenv` : https://pypi.python.org/pypi/virtualenv/
