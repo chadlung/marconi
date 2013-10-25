@@ -52,6 +52,6 @@ installed and running.
     "Content-type: application/json" -d '{"metadata": "Sample Queue"}'
 
 .. _`OpenStack` : http://openstack.org/
-.. _`Install mongodb` : http://docs.mongodb.org/manual/installation/
+.. _`MongoDB` : http://docs.mongodb.org/manual/installation/
 .. _`pyenv` : https://github.com/yyuu/pyenv/
 .. _`virtualenv` : https://pypi.python.org/pypi/virtualenv/
