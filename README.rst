@@ -50,6 +50,16 @@ installed and running.
 
     $ curl -i -X PUT http://127.0.0.1:8888/v1/queues/samplequeue -H
     "Content-type: application/json" -d '{"metadata": "Sample Queue"}'
+    
+You should get an **HTTP 201** along with some headers that will look
+similar to this::
+
+    HTTP/1.0 201 Created
+    Date: Fri, 25 Oct 2013 15:34:37 GMT
+    Server: WSGIServer/0.1 Python/2.7.3
+    Content-Length: 0
+    Location: /v1/queues/samplequeue
+ 
 
 .. _`OpenStack` : http://openstack.org/
 .. _`MongoDB` : http://docs.mongodb.org/manual/installation/
