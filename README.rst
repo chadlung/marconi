@@ -7,7 +7,7 @@ Running a local Marconi server with MongoDB
 -------------------------------------------
 
 **Note:** These instructions are for running a local instance of Marconi and
-not all of hese steps are required. It is assumed you have `MongoDB`_
+not all of these steps are required. It is assumed you have `MongoDB`_
 installed and running.
 
 1. From your home folder create the ``~/.marconi`` folder and clone the repo::
